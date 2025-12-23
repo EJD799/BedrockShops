@@ -1,0 +1,18 @@
+{
+    "resource_pack_name": "shops",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "shops:playershop_top": {
+            "textures": "textures/blocks/playershop_top"
+        },
+        "shops:playershop_side": {
+            "textures": "textures/blocks/shop_side"
+        },
+        "shops:adminshop_top": {
+            "textures": "textures/blocks/adminshop_top"
+        },
+        "shops:adminshop_side": {
+            "textures": "textures/blocks/shop_side"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Shops RP",
+    "description": "Shops addon for Bedrock Edition",
+    "uuid": "783b9173-0a97-4826-b8cf-4de08ec46d88",
+    "version": [1, 1, 0],
+    "min_engine_version": [1, 21, 30]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "5a5510c5-5965-48af-a3b6-44cbaa434af5",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "product_type":"addon"
+  },
+  "dependencies": [
+    {
+      "uuid": "2e781d4a-4d94-43bb-9b3d-ef40a09ba97b",
+      "version": [1, 1, 0]
+    }
+  ]
+}

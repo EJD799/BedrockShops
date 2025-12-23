@@ -1,0 +1,7 @@
+## Item
+item.shops:shop_editor=Shop Editor
+item.shops:shop_dashboard=Shop Dashboard
+
+## Blocks
+tile.shops:player_shop.name=Player Shop
+tile.shops:admin_shop.name=Admin Shop
