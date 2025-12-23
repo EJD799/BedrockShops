@@ -1,0 +1,14 @@
+{
+	"format_version": "1.21.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "shops:shop_editor",
+			"menu_category": { "category": "equipment" }
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "shop_editor",
+			"minecraft:allow_off_hand": true
+		}
+	}
+}

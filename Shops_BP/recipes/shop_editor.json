@@ -1,0 +1,29 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "shops:shop_editor"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [" A ", "AA ", "  B"],
+        "key": {
+            "A": "minecraft:iron_ingot",
+            "B": "minecraft:lapis_lazuli"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:iron_ingot"
+            },
+            {
+                "item": "minecraft:lapis_lazuli"
+            }
+        ],
+        "result": [
+            {
+                "item": "shops:shop_editor",
+
+                "count": 1
+            }
+        ]
+    }
+}

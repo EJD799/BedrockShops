@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "shops:shop_dashboard",
+			"menu_category": { "category": "equipment" }
+		},
+		"components": {
+			"minecraft:custom_components": [ "shops:use_dashboard" ],
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": "shop_dashboard",
+			"minecraft:allow_off_hand": true
+		}
+	}
+}

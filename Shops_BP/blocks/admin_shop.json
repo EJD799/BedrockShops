@@ -1,0 +1,44 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:block": {
+        "description": {
+            "identifier": "shops:admin_shop",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 999
+            },
+            "minecraft:map_color": "#00ffff",
+	    "minecraft:geometry": "minecraft:geometry.full_block",
+	    "minecraft:material_instances": {
+    		"down": {
+        	    "texture": "shops:adminshop_top"
+    		},
+    		"up": {
+        	    "texture": "shops:adminshop_top"
+    		},
+    		"north": {
+        	    "texture": "shops:adminshop_side"
+    		},
+    		"east": {
+        	    "texture": "shops:adminshop_side"
+    		},
+    		"south": {
+        	    "texture": "shops:adminshop_side"
+    		},
+    		"west": {
+        	    "texture": "shops:adminshop_side"
+    		}
+	    },
+	    "minecraft:custom_components": [
+		"shops:claim_interact"
+	    ]
+	}
+    }
+}
